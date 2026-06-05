@@ -1,0 +1,3 @@
+Iteraciones: 355
+Error final entre iteraciones: 9.6385e-11
+Error maximo contra solucion exacta: 0.00083746

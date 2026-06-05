@@ -1,0 +1,20 @@
+Método Jacobi:
+Iteraciones = 355
+Error final = 9.6385e-11
+
+Método Gauss-Seidel:
+Iteraciones = 185
+Error final = 9.58764e-11
+
+Comparación:
+
+Gauss-Seidel requirió menos iteraciones para alcanzar
+la misma tolerancia de convergencia.
+
+Esto ocurre porque Gauss-Seidel utiliza inmediatamente
+los valores recién actualizados durante cada barrido
+de la malla, mientras que Jacobi utiliza únicamente
+los valores de la iteración anterior.
+
+Por esta razón Gauss-Seidel converge más rápidamente
+para este problema.
